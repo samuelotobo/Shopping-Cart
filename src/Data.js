@@ -1,0 +1,111 @@
+let shopItemsData = [
+  {
+    id: "jfhgbvnscs",
+    name: "Pod Food",
+    price: 45,
+    desc: "Topped poutine with alfredo, spinach, mushrooms and enough bacon.",
+    img: "images/img-1.jpg",
+  
+  },
+  {
+    id: "ioytrhndcv",
+    name: "Office Shirt",
+    price: 100,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-2.jpg",
+   
+  },
+  {
+    id: "wuefbdancxbsn",
+    name: "Naked Cake",
+    price: 25,
+    desc: " Cake Topped with candied blood orange slices",
+    img: "images/img-3.jpg",
+      },
+  {
+    id: "thyfhdaecbcv",
+    name: "French Toast",
+    price: 300,
+    desc: "French Toast with blue berries and bananas.",
+    img: "images/img-4.jpg",
+    
+  },
+  {
+  id: "jfhgbfsss",
+  name: "Pan Cakes",
+  price: 45,
+  desc: "Pan cakes with bananna, spilled honey, and vegetable leaves",
+  img: "images/img-5.jpg",
+},
+{
+  id: "ioyfwfhndcv",
+  name: "Niçoise Salad",
+  price: 100,
+  desc: "Salade Niçoise is made with tomatoes, hard-boiled eggs, anchovies or tuna, olives, potatoes and seasonal vegetables.",
+  img: "images/img-6.jpg",
+},
+{
+  id: "wuefsfbffcxbsn",
+  name: "Chicken Pizza",
+  price: 25,
+  desc: "Chiken  Pizza topped with onions, vegetavles and potatoes",
+  img: "images/img-7.jpg",
+},
+{
+  id: "thyfhcvjdscv",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-8.jpg",
+},
+{
+  id: "thyfhcvstfsjcv",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-11.jpg",
+},
+{
+  id: "thyfhcvsdsscev",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-101.jpg",
+},
+{
+  id: "thyfhcvscvetf",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-13.jpg",
+  },
+{
+  id: "thyfhcvstdwecv",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-101.jpg",
+},
+{
+  id: "thyfhcvscetetrv",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-6.jpg",
+},
+{
+  id: "thyfhcvscefjksv",
+  name: "Burger",
+  price: 300,
+  desc: "Burger with",
+  img: "images/img-7.jpg",
+},
+{
+  id: "thfshjdrwyfhcvscv",
+  name: "Grilled Chicken",
+  price: 300,
+  desc: "Spicy Grilled chicken",
+  img: "images/img-1.jpg",
+},
+];
+

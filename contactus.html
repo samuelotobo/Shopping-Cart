@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SamEats</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+ 
+
+
+
+
+
+
+
+  <div class="navbar" id="headerforcontact">
+    <a href="index.html">
+     
+    </a>
+    <h2 class="logo"><img src="images/logo.png" alt="sam eat logo" style="width:20%; vertical-align: middle;">SamEats</h2>
+    <div class="header">
+      <a class="active" href="index.html"></i>Home</a>
+      <a href="shopping.html">Shopping</a>
+      <a href="cart.html">Online Shopping form</a>
+      <a href="contactus.html">Contact</a>
+ </div>
+   
+  </div>
+  <div class="contactuscontainer">
+
+    <form action="contactus.js" method="post" id="form">
+    <table>
+        <caption>   <h1 id="contacttext">Contact Information</h1>
+            <p id="fillbelow">Please Fill The Form Below</p>
+        </caption>
+    
+        <tr>           
+                <th><Label>First Name</Label>     </th>
+                <td><input type="text" placeholder="Enter Your First Name" for="fname" required></td>
+        </tr>
+
+
+        <tr>
+            <th><Label>Last Name</Label>     </th>
+            <td><input type="text" placeholder="Enter Your Last Name" for="lname" required></td>
+        </tr>
+
+        <tr>
+            <th><Label>E-mail</Label>     </th>
+            <td><input type="email" placeholder="Enter Your E-mail address" for="email" required></td>
+        </tr>
+                       
+
+        <tr>
+            <th><Label>Complaint </Label>     </th>
+            <td><textarea rowspan="10" cols="30" placeholder="Type your Complainthere"></textarea></td>
+        </tr>
+
+        <tr>
+            <th> </th>
+            <th>
+           <button type="submit" class="btn" onclick="alert('Complaint Submitted Successfully!')"><h1 id="submittext">Submit</h1></button>
+                <br>
+            </td>
+        </tr>
+
+    </table>
+    </form>
+    </div>
+                          
+<footer>
+  <div class="comrights">
+      <p>Copyrights 2023<br/>@otobosamuel5<br/>@hecky4u</p>
+  </div>
+
+</footer>
+
+
+
+</body>
+
+
+</html>

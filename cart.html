@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam Eats</title>
+  <link rel="stylesheet" href="src/style.css">
+ 
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">
+      
+    </a>
+    <h2 class="logo"><img src="images/logo.png" alt="sam eat logo" style="width:20%; vertical-align: middle;">SamEats</h2>
+    <div class="header">
+      <a id="headmenu" class="active" href="index.html"></i>Home</a>
+      <a id="headmenu" href="shopping.html">Shopping</a>
+      <a id="headmenu" href="cart.html">Online Shopping form</a>
+      <a id="headmenu" href="contactus.html">Contact</a>
+   
+ </div>
+   
+<div id="cart-iconll">
+    <a href="cart.html">
+      <div class="cart">
+        <img src="images/cart.png" class="cart-logo" width="22px" height="25px">
+        <div id="cartAmount" class="cartAmount">0</div>
+      </div>
+    </a>
+  </div>
+
+  </div>
+
+  <div id="label" class="text-center"></div>
+
+  <div class="shopping-cart" id="shopping-cart"></div>
+
+  <div id="delivery">
+    
+  </div>
+</body>
+<script src="src/Data.js"></script>
+<script src="src/cart.js"></script>
+<script>
+
+ function adam() {
+  let totalCost = basket
+    .map((x) => {
+      let { id, item } = x;
+      let search = shopItemsData.find((y) => y.id === id) || [];
+      return item * search.price;
+    })
+    .reduce((x, y) => x + y, 0);
+  if (totalCost < 1000) {
+   var discount= totalCost* 0.1;
+    var total =totalCost + deliveryCost;
+  } else
+  {
+  var total=totalCost;
+ } 
+                const response = confirm("Are you sure you accept the price");
+                if (response) {
+                    alert("Thank You. Successful. The price of your product is "+ total);
+                } else {
+                    alert("Application withdrawn");
+                }
+
+                var p = document.getElementById("totalcost");
+    p.innerHTML = total;
+};
+
+  function sammy() {
+    var x = document.getElementById("pay");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  };
+
+ 
+  function uncheckOther(clickedId) {
+        if (clickedId === 'visa') {
+            document.getElementById('mastercard').checked = false;
+        } else {
+            document.getElementById('visa').checked = false;
+        }
+    }
+ 
+</script>
+
+
+
+</html>
